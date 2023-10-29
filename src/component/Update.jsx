@@ -24,7 +24,7 @@ const Update = () => {
 
   const UpdateOperation = (event) => {
     event.preventDefault();
-    axios.put(`http://localhost:1527/updateUser/${id}`,
+    axios.put(`https://mernstack-crudapp-backend.onrender.com/updateUser/${id}`,
       {
         name, email, password,
       })
